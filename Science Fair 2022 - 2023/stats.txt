@@ -1,0 +1,3 @@
+Linear Search: 0.00698
+Binary Search: 0.00698
+Fibonacci Search: 0.00698
