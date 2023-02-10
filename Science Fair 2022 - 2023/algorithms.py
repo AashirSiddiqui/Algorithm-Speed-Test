@@ -52,12 +52,14 @@ def fibonacciSearch(listToSearch, looking):
           f1 = f0
           f0 = f2 - f1
           start = index
+          print(listToSearch[index])
       elif listToSearch[index] > looking:
           f2 = f0
           f1 = f1 - f0
           f0 = f2 - f1
       else:
           return index
+      print(listToSearch[index])
   if (f1) and (listToSearch[size - 1] == looking):
       return size - 1
   return None
